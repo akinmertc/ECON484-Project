@@ -1,4 +1,4 @@
-# Project Report — Team 4
+# ECON484_Team-4_Project — Final Report
 ## Corporate Sustainability, Greenwashing & Financial Performance
 
 ---
