@@ -169,7 +169,7 @@ Technology (61 companies) vs Communication Services (14 companies). Stratified s
 ## Repository Structure
 
 ```
-team4-esg-project/
+ECON484_Team-4_Project/
 ├── original_data/
 │   └── SP_500_ESG_Risk_Ratings.csv
 ├── splits/
@@ -221,7 +221,7 @@ All outputs (plots + final_results.csv) will be saved to the `plots/` directory.
 
 ## GitHub Setup
 
-1. Clone the repository: `git clone <repo-url>`
+1. Clone the repository: `git clone <https://github.com/akinmertc/ECON484-Project.gitl>`
 2. Place `SP_500_ESG_Risk_Ratings.csv` in `original_data/`
 3. Install requirements: `pip install -r requirements.txt`
 4. Run pipeline: `cd code && python3 01_full_pipeline.py`
