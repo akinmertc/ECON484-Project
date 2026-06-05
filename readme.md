@@ -211,7 +211,7 @@ pip install -r requirements.txt
 ## Running the Pipeline
 
 ```bash
-cd code
+cd ECON484_Team-4_Project/code
 python3 01_full_pipeline.py
 ```
 
