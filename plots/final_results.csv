@@ -1,0 +1,431 @@
+Symbol,Name,Sector,Industry,Total ESG Risk score,Environment Risk Score,Governance Risk Score,Social Risk Score,ESG Risk Level,ROA,ROE,Leverage,KMeans_Cluster,DBSCAN_Label,IF_Label,IF_Score,Both_Anomaly
+EMN,Eastman Chemical Company,Basic Materials,Specialty Chemicals,25.3,12.8,6.6,5.8,Medium,0.0898,0.3229,2.64,0,0,1,-0.4395159591900411,False
+DPZ,Domino's Pizza Inc.,Consumer Cyclical,Restaurants,29.2,10.6,6.3,12.2,Medium,0.0033,0.0155,0.8,0,0,1,-0.4426311296679181,False
+DVA,Davita Inc.,Healthcare,Medical Care Facilities,22.6,0.1,8.4,14.1,Medium,0.1848,0.2754,0.37,3,0,1,-0.494047254824585,False
+DRI,"Darden Restaurants, Inc.",Consumer Cyclical,Restaurants,27.5,7.9,4.6,15.0,Medium,0.0351,0.0506,0.89,0,0,1,-0.4413179719851339,False
+ZTS,Zoetis Inc.,Healthcare,Drug Manufacturers - Specialty & Generic,18.8,3.2,8.7,6.8,Low,0.1045,0.2229,1.68,3,0,1,-0.40788667712393095,False
+ZBH,"Zimmer Biomet Holdings, Inc.",Healthcare,Medical Devices,26.0,3.6,7.9,14.5,Medium,0.139,0.197,0.75,3,0,1,-0.4544018141277951,False
+YUM,"Yum! Brands, Inc.",Consumer Cyclical,Restaurants,20.1,4.5,4.1,11.4,Medium,0.0155,0.0005,1.76,2,0,1,-0.4214264811459508,False
+XYL,Xylem Inc,Industrials,Specialty Industrial Machinery,18.1,4.3,5.2,8.7,Low,0.0285,0.102,1.95,2,0,1,-0.3901365163784873,False
+XEL,"Xcel Energy, Inc.",Utilities,Utilities - Regulated Electric,26.5,12.7,4.5,9.3,Medium,0.0191,0.0653,2.24,0,0,1,-0.4240310652648632,False
+WYNN,Wynn Resorts Ltd,Consumer Cyclical,Resorts & Casinos,25.7,3.4,10.6,11.8,Medium,0.034,0.0832,0.61,3,0,1,-0.44392541120576484,False
+WTW,Willis Towers Watson Public Limited Companys,Financial Services,Insurance Brokers,18.7,0.1,10.8,7.8,Low,0.0499,0.14,0.69,3,0,1,-0.4505354267760252,False
+WMB,Williams Companies Inc.,Energy,Oil & Gas Midstream,21.8,8.7,3.0,10.1,Medium,0.0126,0.0531,3.21,2,0,1,-0.45276174454030366,False
+WY,Weyerhaeuser Company,Real Estate,REIT - Specialty,16.7,9.1,3.5,4.2,Low,0.0647,0.112,1.3,2,0,1,-0.4495004352266099,False
+WDC,Western Digital Corp.,Technology,Computer Hardware,11.4,1.5,6.1,3.9,Low,0.3423,0.6832,0.89,1,-1,-1,-0.5779505173957532,True
+WELL,Welltower Inc.,Real Estate,REIT - Healthcare Facilities,13.2,4.2,5.5,3.5,Low,0.0622,0.1035,0.58,2,0,1,-0.42807460162647937,False
+WFC,Wells Fargo & Co.,Financial Services,Banks - Diversified,36.2,2.0,19.4,14.8,High,0.0295,0.0166,1.17,3,-1,-1,-0.6064214202282823,True
+WEC,"Wec Energy Group, Inc.",Utilities,Utilities - Regulated Electric,27.5,13.4,5.1,9.0,Medium,0.0208,0.0774,1.2,0,0,1,-0.4174476743429296,False
+WAT,Waters Corp,Healthcare,Diagnostics & Research,14.6,1.4,5.1,8.2,Low,0.0222,0.0898,2.87,2,0,1,-0.40901038064944356,False
+WM,"Waste Management, Inc.",Industrials,Waste Management,16.6,8.1,3.3,5.2,Low,0.0262,0.0528,0.32,2,0,1,-0.487041042584241,False
+WMT,Walmart Inc.,Consumer Defensive,Discount Stores,25.3,5.9,7.1,12.4,Medium,0.1033,0.4018,2.63,3,0,1,-0.41714948759454157,False
+WBA,"Walgreens Boots Alliance, Inc",Healthcare,Pharmaceutical Retailers,16.3,1.8,5.2,9.3,Low,0.0396,0.1518,3.06,2,0,1,-0.40675578579923105,False
+WAB,Wabtec Inc.,Industrials,Railroads,23.3,5.4,6.0,12.0,Medium,-0.0154,0.0098,0.5,2,0,1,-0.45093621337413176,False
+GWW,"W.W. Grainger, Inc.",Industrials,Industrial Distribution,16.0,4.5,5.9,5.6,Low,0.0047,-0.0189,2.63,2,0,1,-0.4193307256987143,False
+WRB,W.R. Berkley Corporation,Financial Services,Insurance - Property & Casualty,21.8,2.0,11.9,7.9,Medium,0.1217,0.3511,1.81,3,0,1,-0.45633397436922246,False
+VMC,Vulcan Materials Company,Basic Materials,Building Materials,29.3,13.4,9.1,6.8,Medium,0.0817,0.2857,2.73,0,0,1,-0.46385435636491457,False
+V,Visa Inc.,Financial Services,Credit Services,16.7,1.8,6.7,8.2,Low,0.1548,0.4559,1.88,1,0,1,-0.4214842463445178,False
+VRTX,Vertex Pharmaceuticals Inc,Healthcare,Biotechnology,22.7,0.8,6.6,15.4,Medium,-0.0672,-0.0681,0.38,2,0,-1,-0.5363405853466279,False
+VZ,Verizon Communications,Communication Services,Telecom Services,18.7,3.7,5.4,9.6,Low,-0.0151,-0.013,1.93,2,0,1,-0.41606282153557966,False
+VRSK,"Verisk Analytics, Inc.",Industrials,Consulting Services,17.5,0.1,5.0,12.5,Low,0.049,0.1388,1.61,2,0,1,-0.41790807213748127,False
+VRSN,Verisign Inc,Technology,Software - Infrastructure,21.3,4.7,5.8,10.8,Medium,0.0569,0.1102,0.55,2,0,1,-0.4072537547650579,False
+VTR,"Ventas, Inc.",Real Estate,REIT - Healthcare Facilities,12.9,3.4,5.6,3.9,Low,0.0157,0.0523,3.28,2,0,1,-0.42614177860431246,False
+VLO,Valero Energy Corporation,Energy,Oil & Gas Refining & Marketing,32.6,20.1,5.0,7.4,High,0.0851,0.3827,3.09,0,0,-1,-0.5366650618165176,False
+UHS,"Universal Health Services, Inc. Class B",Healthcare,Medical Care Facilities,33.0,3.7,8.6,20.7,High,0.0582,0.2573,3.16,3,0,-1,-0.5352745639619587,False
+UNH,Unitedhealth Group Incorporated,Healthcare,Healthcare Plans,15.3,0.0,5.6,9.7,Low,0.1723,0.7234,3.17,1,0,1,-0.49803580064461134,False
+URI,"United Rentals, Inc.",Industrials,Rental & Leasing Services,16.9,5.3,5.4,6.1,Low,0.0249,0.0407,1.03,2,0,1,-0.40540957601523303,False
+UPS,"United Parcel Service, Inc. Class B",Industrials,Integrated Freight & Logistics,18.6,4.2,5.5,8.9,Low,0.1237,0.4927,3.05,1,0,1,-0.41720956703854567,False
+UAL,"United Airlines Holdings, Inc.",Industrials,Airlines,28.6,10.8,5.0,12.8,Medium,0.0603,0.1518,1.64,0,0,1,-0.41135744405865765,False
+UNP,Union Pacific Corp.,Industrials,Railroads,23.5,7.3,5.6,10.6,Medium,0.0402,0.0871,1.38,0,0,1,-0.39606794419316715,False
+ULTA,"Ulta Beauty, Inc.",Consumer Cyclical,Specialty Retail,15.6,4.1,4.3,7.3,Low,0.0603,0.1907,1.96,2,0,1,-0.39821471519888735,False
+UDR,"Udr, Inc.",Real Estate,REIT - Residential,13.9,3.7,6.3,3.9,Low,0.0117,0.0937,3.41,2,0,1,-0.43858189889165033,False
+USB,U.S. Bancorp,Financial Services,Banks - Regional,30.3,1.8,13.0,15.5,High,-0.0159,-0.036,1.21,3,0,-1,-0.5394990147271695,False
+TSN,"Tyson Foods, Inc.",Consumer Defensive,Farm Products,35.9,14.0,9.5,12.4,High,0.0841,0.2316,1.91,0,0,1,-0.4881784203434969,False
+TRMB,Trimble Inc.,Technology,Scientific & Technical Instruments,12.4,3.8,5.2,3.4,Low,0.1046,0.1935,0.76,2,0,1,-0.43419666273435714,False
+TDG,Transdigm Group Incorporated,Industrials,Aerospace & Defense,38.7,12.0,9.0,17.7,High,0.077,0.1595,1.07,0,0,-1,-0.5320991571899364,False
+TT,Trane Technologies Plc,Industrials,Building Products & Equipment,15.2,4.4,5.1,5.7,Low,0.1171,0.2639,1.06,1,0,1,-0.4127067212208609,False
+TSCO,Tractor Supply Co,Consumer Cyclical,Specialty Retail,16.1,3.4,4.5,8.2,Low,0.0219,0.1143,2.32,2,0,1,-0.39597935662943734,False
+TJX,"Tjx Companies, Inc.",Consumer Cyclical,Apparel Retail,14.4,1.9,4.8,7.7,Low,0.1052,0.2329,0.59,2,0,1,-0.420822328926795,False
+TMO,"Thermo Fisher Scientific, Inc.",Healthcare,Diagnostics & Research,12.8,1.4,6.5,4.9,Low,0.0604,0.1423,0.9,2,0,1,-0.418591639681792,False
+DIS,The Walt Disney Company,Communication Services,Entertainment,15.7,0.0,6.7,9.0,Low,0.076,0.2484,2.47,2,0,1,-0.4159070639245102,False
+TRV,"The Travelers Companies, Inc.",Financial Services,Insurance - Property & Casualty,20.3,1.0,10.0,9.3,Medium,0.0805,0.1519,1.02,3,0,1,-0.42014908580934834,False
+SO,The Southern Company,Utilities,Utilities - Regulated Electric,33.0,14.7,7.3,11.0,High,0.0088,0.0449,2.51,0,0,1,-0.47260099702580777,False
+SHW,The Sherwin-Williams Company,Basic Materials,Specialty Chemicals,29.4,14.3,5.8,9.2,Medium,0.0972,0.1644,0.74,0,0,1,-0.44458977139440736,False
+MOS,The Mosaic Company,Basic Materials,Agricultural Inputs,33.5,13.9,8.6,11.1,High,0.013,0.0457,3.26,0,0,1,-0.49413379835493426,False
+KR,The Kroger Co.,Consumer Defensive,Grocery Stores,21.3,6.6,5.6,9.1,Medium,0.0657,0.241,2.41,2,0,1,-0.3871588061930197,False
+KHC,The Kraft Heinz Company,Consumer Defensive,Packaged Foods,33.7,13.5,6.2,14.1,High,0.0891,0.3061,1.99,0,0,1,-0.46798196529554786,False
+SJM,The J.M. Smucker Company,Consumer Defensive,Packaged Foods,30.5,12.9,5.6,12.0,High,0.067,0.2734,3.17,0,0,1,-0.4436757906112347,False
+IPG,"The Interpublic Group of Companies, Inc.",Communication Services,Advertising Agencies,10.3,0.0,5.3,5.0,Low,0.0856,0.2276,1.38,2,0,1,-0.43768480721694225,False
+HSY,The Hershey Company,Consumer Defensive,Confectioners,26.0,10.5,5.1,10.4,Medium,0.132,0.5244,3.17,1,0,1,-0.4648783592108962,False
+HIG,"The Hartford Financial Services Group, Inc.",Financial Services,Insurance - Property & Casualty,16.6,1.8,7.6,7.2,Low,0.0925,0.3208,2.35,1,0,1,-0.4014447850242528,False
+EL,The Estee Lauder Companies Inc. Class A,Consumer Defensive,Household & Personal Products,25.5,6.9,7.5,11.1,Medium,0.0891,0.1438,0.33,0,0,1,-0.43720349765133826,False
+COO,"The Cooper Companies, Inc.",Healthcare,Medical Instruments & Supplies,17.5,2.7,6.0,8.8,Low,0.1076,0.1202,0.32,2,0,1,-0.4401702003236201,False
+CI,The Cigna Group,Healthcare,Healthcare Plans,11.6,0.0,5.7,6.0,Low,0.1005,0.3166,2.51,1,0,1,-0.44186293394001536,False
+SCHW,The Charles Schwab Corporation,Financial Services,Capital Markets,23.3,2.4,11.9,8.9,Medium,0.0204,0.0928,2.58,3,0,1,-0.45369329067995495,False
+ALL,The Allstate Corporation,Financial Services,Insurance - Property & Casualty,22.0,1.0,10.9,10.1,Medium,0.0424,0.1226,2.69,3,0,1,-0.43569545648028263,False
+TXT,"Textron, Inc.",Industrials,Aerospace & Defense,33.6,10.9,6.6,16.1,High,0.1082,0.3806,2.4,0,0,1,-0.48885020647204275,False
+TXN,Texas Instruments Incorporated,Technology,Semiconductors,20.6,7.8,6.9,6.0,Medium,0.0506,0.1297,1.48,2,0,1,-0.4038923107637913,False
+TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,25.2,3.3,7.8,14.1,Medium,0.0166,0.0489,3.41,3,0,1,-0.4464445829913236,False
+TER,"Teradyne, Inc.",Technology,Semiconductor Equipment & Materials,17.0,7.1,5.0,4.9,Low,0.1903,0.6245,2.32,1,0,1,-0.4697494966773157,False
+TFX,Teleflex Incorporated,Healthcare,Medical Instruments & Supplies,29.6,4.8,8.7,16.1,Medium,0.0908,0.3292,2.15,3,0,1,-0.45054133663053375,False
+TEL,Te Connectivity Ltd,Technology,Electronic Components,14.8,5.8,4.6,4.4,Low,0.0075,0.026,2.61,2,0,1,-0.42995997794914886,False
+TGT,Target Corporation,Consumer Defensive,Discount Stores,14.4,1.9,4.9,7.6,Low,0.0372,0.1746,3.31,2,0,1,-0.4125321880238358,False
+TRGP,Targa Resources Corp.,Energy,Oil & Gas Midstream,33.2,14.2,4.2,14.8,High,0.0413,0.2037,3.39,0,0,1,-0.5022296137463077,False
+TPR,"Tapestry, Inc.",Consumer Cyclical,Luxury Goods,14.8,1.1,5.2,8.6,Low,0.0192,0.0318,3.02,2,0,1,-0.4234370288955851,False
+TMUS,"T-Mobile Us, Inc.",Communication Services,Telecom Services,24.6,4.2,7.1,13.4,Medium,0.0144,0.0291,2.08,3,0,1,-0.4151948535417638,False
+TROW,T Rowe Price Group Inc,Financial Services,Asset Management,16.9,2.4,5.6,8.9,Low,0.0887,0.2885,2.12,1,0,1,-0.39083620223153936,False
+SYY,Sysco Corporation,Consumer Defensive,Food Distribution,15.9,5.4,4.5,6.1,Low,0.0892,0.3745,3.47,1,0,1,-0.44222933180166274,False
+SNPS,Synopsys Inc,Technology,Software - Infrastructure,14.4,3.3,4.2,6.9,Low,0.1247,0.4777,3.11,1,0,1,-0.44023205457601766,False
+SYF,Synchrony Financial,Financial Services,Credit Services,17.3,0.1,7.3,9.9,Low,0.1236,0.4706,2.55,1,0,1,-0.44034865166084963,False
+SYK,Stryker Corporation,Healthcare,Medical Devices,28.3,4.0,11.0,13.2,Medium,0.0073,0.0004,2.89,3,0,1,-0.46310714731086566,False
+STLD,Steel Dynamics Inc,Basic Materials,Steel,33.0,10.6,8.1,14.4,High,0.0783,0.3382,3.22,0,0,1,-0.473689825796247,False
+STT,State Street Corporation,Financial Services,Asset Management,24.1,1.6,9.5,12.9,Medium,0.1058,0.5232,2.85,3,0,1,-0.45143547058134154,False
+SBUX,Starbucks Corp,Consumer Cyclical,Restaurants,24.7,5.8,4.3,14.6,Medium,0.1499,0.6061,2.85,1,0,1,-0.49662804993785503,False
+SWK,"Stanley Black & Decker, Inc.",Industrials,Tools & Accessories,25.3,5.0,7.8,12.5,Medium,0.0442,0.1334,1.5,3,0,1,-0.40375417146743536,False
+LUV,Southwest Airlines Co.,Industrials,Airlines,30.7,11.0,5.9,13.7,High,0.0683,0.0709,0.42,0,0,1,-0.46613767569109416,False
+SNA,Snap-on Incorporated,Industrials,Tools & Accessories,30.5,9.0,7.6,13.9,High,0.1757,0.3336,1.22,0,0,1,-0.47843532925078625,False
+SWKS,Skyworks Solutions Inc,Technology,Semiconductors,28.0,11.8,7.2,8.9,Medium,0.0868,0.1257,0.42,0,0,1,-0.4421073241018927,False
+SPG,"Simon Property Group, Inc.",Real Estate,REIT - Retail,14.0,3.8,6.2,4.0,Low,0.0258,0.0768,0.71,2,0,1,-0.4266410714488042,False
+NOW,"Servicenow, Inc.",Technology,Software - Application,16.6,4.0,6.6,6.0,Low,0.2448,0.4912,0.99,1,0,1,-0.49004456025455534,False
+SRE,Sempra,Utilities,Utilities - Diversified,23.6,10.9,4.9,7.8,Medium,0.0154,0.029,0.47,2,0,1,-0.43897536021762634,False
+STX,Seagate Technology Holdings Plcs,Technology,Computer Hardware,10.7,1.6,5.3,3.8,Low,0.3111,1.0944,2.34,1,-1,-1,-0.6068713305608594,True
+SLB,Schlumberger Limited,Energy,Oil & Gas Equipment & Services,20.3,8.1,5.9,6.3,Medium,-0.0918,-0.3472,2.84,2,0,-1,-0.5503832300184016,False
+SBAC,Sba Communications Corp,Real Estate,REIT - Specialty,11.6,3.1,5.2,3.2,Low,0.0267,-0.0087,0.55,2,0,1,-0.46673917443095536,False
+CRM,"Salesforce, Inc.",Technology,Software - Application,14.9,2.0,5.4,7.5,Low,0.1604,0.4444,1.61,1,0,1,-0.42270918621955883,False
+SPGI,S&p Global Inc.,Financial Services,Financial Data & Stock Exchanges,13.0,0.0,6.8,6.2,Low,0.0633,0.1234,1.1,2,0,1,-0.4208885198174448,False
+RCL,Royal Caribbean Group,Consumer Cyclical,Travel Services,20.7,8.1,4.9,7.7,Medium,0.1759,0.6125,2.41,1,0,1,-0.45970429852388706,False
+ROST,Ross Stores Inc,Consumer Cyclical,Apparel Retail,18.2,1.8,5.7,10.8,Low,0.0926,0.3513,2.26,1,0,1,-0.40418045314668866,False
+ROP,"Roper Technologies, Inc.",Technology,Software - Application,20.4,4.7,6.1,9.7,Medium,-0.0015,-0.0183,1.44,2,0,1,-0.4110874022750469,False
+ROL,"Rollins, Inc.",Consumer Cyclical,Personal Services,19.3,1.8,6.9,10.6,Low,0.0558,0.1461,0.61,2,0,1,-0.4132991264569027,False
+ROK,"Rockwell Automation, Inc.",Industrials,Specialty Industrial Machinery,17.7,5.4,5.7,6.6,Low,-0.1021,-0.22,0.85,2,0,-1,-0.5273433168920437,False
+RHI,Robert Half Inc.,Industrials,Staffing & Employment Services,10.9,0.1,3.4,7.4,Low,-0.0397,-0.169,2.27,2,0,-1,-0.5413054473992353,False
+RVTY,"Revvity, Inc.",Healthcare,Diagnostics & Research,16.7,0.8,5.8,10.1,Low,0.0636,0.1628,1.5,2,0,1,-0.40263318439951995,False
+RMD,Resmed Inc.,Healthcare,Medical Instruments & Supplies,26.4,3.5,10.4,12.4,Medium,0.0935,0.4483,3.04,3,0,1,-0.4629432004599748,False
+RSG,Republic Services Inc.,Industrials,Waste Management,20.9,11.2,3.7,6.0,Medium,0.0109,0.0305,0.53,2,0,1,-0.4647109735310575,False
+RF,Regions Financial Corp.,Financial Services,Banks - Regional,16.9,1.8,8.4,6.7,Low,0.0699,0.2237,2.17,2,0,1,-0.4035421144445906,False
+REGN,Regeneron Pharmaceuticals Inc,Healthcare,Biotechnology,18.0,0.3,6.7,11.0,Low,0.0968,0.266,1.54,1,0,1,-0.4116070553209613,False
+REG,Regency Centers Corporation,Real Estate,REIT - Retail,11.7,3.7,4.8,3.2,Low,0.0215,0.129,2.05,2,0,1,-0.43793687944741594,False
+O,Realty Income Corporation,Real Estate,REIT - Retail,15.5,4.4,5.7,5.3,Low,0.0354,0.1728,3.38,2,0,1,-0.42082170783361844,False
+RJF,"Raymond James Financial, Inc.",Financial Services,Capital Markets,27.0,2.3,13.4,11.2,Medium,0.0557,0.1354,1.32,3,0,1,-0.4779258576592459,False
+RL,Ralph Lauren Corporation,Consumer Cyclical,Apparel Manufacturing,14.6,1.2,5.6,7.8,Low,0.0346,0.0836,0.68,2,0,1,-0.4145713258380988,False
+DGX,Quest Diagnostics Inc.,Healthcare,Diagnostics & Research,21.2,0.1,8.0,13.1,Medium,0.1471,0.6479,3.11,1,0,1,-0.47701609568338865,False
+PWR,"Quanta Services, Inc.",Industrials,Engineering & Construction,36.9,12.1,9.0,15.7,High,0.1006,0.2406,1.2,0,0,1,-0.5055962793294018,False
+QCOM,Qualcomm Inc,Technology,Semiconductors,15.4,5.3,5.6,4.5,Low,0.1641,0.6159,2.88,1,0,1,-0.4589873998212816,False
+QRVO,"Qorvo, Inc.",Technology,Semiconductors,28.5,12.3,7.7,8.5,Medium,0.1183,0.2982,1.49,0,0,1,-0.4357210510870047,False
+PHM,"Pultegroup, Inc.",Consumer Cyclical,Residential Construction,21.4,9.2,4.9,7.3,Medium,0.0298,0.1626,3.28,2,0,1,-0.4198675086304373,False
+PSA,Public Storage,Real Estate,REIT - Industrial,13.1,4.7,5.7,2.6,Low,0.0335,0.1569,2.7,2,0,1,-0.44109577186897947,False
+PEG,Public Service Enterprise Group Incorporated,Utilities,Utilities - Regulated Electric,27.2,12.5,5.5,9.3,Medium,0.0218,0.0993,3.19,0,0,1,-0.426503467917268,False
+PTC,"Ptc, Inc",Technology,Software - Application,18.9,4.9,5.4,8.6,Low,0.2244,0.5223,1.32,1,0,1,-0.4769640600983466,False
+PRU,"Prudential Financial, Inc.",Financial Services,Insurance - Life,19.9,0.6,9.3,10.0,Low,0.068,0.1164,0.33,3,0,1,-0.4521596867186191,False
+PLD,"Prologis, Inc.",Real Estate,REIT - Industrial,10.3,2.7,5.0,2.5,Low,0.0497,0.212,3.34,2,0,1,-0.4706189265780278,False
+PGR,Progressive Corporation,Financial Services,Insurance - Property & Casualty,20.0,1.5,10.1,8.5,Medium,0.1756,0.5123,1.74,1,0,1,-0.4638979703205842,False
+PG,Procter & Gamble Company,Consumer Defensive,Household & Personal Products,28.6,9.6,6.7,12.2,Medium,0.0398,0.1008,2.45,0,0,1,-0.4125077904843612,False
+PFG,"Principal Financial Group, Inc.",Financial Services,Asset Management,14.2,0.8,7.6,5.8,Low,0.1185,0.4736,2.83,1,0,1,-0.4433622744667801,False
+PPL,Ppl Corporation,Utilities,Utilities - Regulated Electric,31.3,17.1,5.3,8.9,High,0.0298,0.0172,0.48,0,0,1,-0.4968284615046509,False
+PPG,"Ppg Industries, Inc.",Basic Materials,Specialty Chemicals,25.2,11.0,6.5,7.7,Medium,-0.0654,-0.2177,3.14,2,0,-1,-0.5354518381727554,False
+PNC,Pnc Financial Services Group,Financial Services,Banks - Regional,26.1,1.9,10.8,13.3,Medium,0.0387,0.0584,0.76,3,0,1,-0.4516085806138876,False
+PNW,Pinnacle West Capital Corporation,Utilities,Utilities - Regulated Electric,30.8,14.7,5.8,10.2,High,0.0423,0.1094,0.62,0,0,1,-0.4476369538858339,False
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,35.4,20.8,5.8,8.8,High,0.0671,0.0877,0.53,0,0,-1,-0.535288759896165,False
+PM,Philip Morris International Inc.,Consumer Defensive,Tobacco,28.5,3.4,11.5,13.5,Medium,0.1024,0.1859,0.56,3,0,1,-0.47742156482791137,False
+PCG,Pg&e Corporation,Utilities,Utilities - Regulated Electric,30.4,9.6,5.4,15.4,High,0.001,-0.0382,2.9,0,0,1,-0.4669495550475364,False
+PFE,Pfizer Inc.,Healthcare,Drug Manufacturers - General,24.6,2.1,9.6,12.9,Medium,0.0501,0.1194,0.57,3,0,1,-0.43480808984719743,False
+PEP,"Pepsico, Inc.",Consumer Defensive,Beverages - Non-Alcoholic,22.1,7.3,5.2,9.6,Medium,0.0924,0.2899,1.66,0,0,1,-0.3950960868626303,False
+PNR,Pentair Plc,Industrials,Specialty Industrial Machinery,22.1,6.0,6.1,10.0,Medium,0.0449,0.1255,1.8,2,0,1,-0.3871218511128798,False
+PYPL,"Paypal Holdings, Inc.",Financial Services,Credit Services,17.8,2.8,5.8,9.2,Low,0.0961,0.3297,2.69,1,0,1,-0.39909817990317115,False
+PAYX,Paychex Inc,Industrials,Staffing & Employment Services,16.7,3.2,6.4,7.2,Low,0.0846,0.2142,1.5,2,0,1,-0.38782849099556427,False
+PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,29.5,9.5,6.2,13.8,Medium,0.0945,0.1784,1.02,0,0,1,-0.4290685362432811,False
+PARA,Paramount Global Class B,Communication Services,Entertainment,15.0,0.1,7.4,7.5,Low,0.0742,0.3616,3.48,1,0,1,-0.4494571645958354,False
+PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,13.9,0.7,5.6,7.6,Low,0.1278,0.5394,3.4,1,0,1,-0.4650713035487204,False
+PKG,Packaging Corp of America,Consumer Cyclical,Packaging & Containers,18.6,14.0,3.6,1.1,Low,0.2065,0.7405,2.53,1,-1,-1,-0.6055941222566025,True
+PCAR,Paccar Inc,Industrials,Farm & Heavy Construction Machinery,27.6,8.4,8.3,11.0,Medium,0.1677,0.5084,2.17,1,0,1,-0.46342656598652765,False
+ORCL,Oracle Corp,Technology,Software - Infrastructure,13.9,0.5,5.6,7.8,Low,0.1111,0.3943,2.28,1,0,1,-0.4220750232479624,False
+OKE,"Oneok, Inc.",Energy,Oil & Gas Midstream,25.1,10.8,3.3,11.0,Medium,-0.0088,-0.0424,1.78,0,0,1,-0.472659072612275,False
+ON,On Semiconductor Corp,Technology,Semiconductors,22.4,11.8,4.9,5.7,Medium,0.2026,0.2595,0.55,1,0,1,-0.4892787768573448,False
+OMC,Omnicom Group Inc.,Communication Services,Advertising Agencies,16.3,0.1,6.9,9.3,Low,0.0905,0.2636,1.29,2,0,1,-0.40816871242659103,False
+OXY,Occidental Petroleum Corporation,Energy,Oil & Gas E&P,41.7,25.0,7.0,9.7,Severe,0.09,0.1929,0.82,0,0,-1,-0.5875854849119126,False
+ORLY,"O'reilly Automotive, Inc.",Consumer Cyclical,Specialty Retail,12.1,0.1,3.8,8.1,Low,-0.0092,0.0155,3.28,2,0,1,-0.4846576923676098,False
+NXPI,Nxp Semiconductors N.v.,Technology,Semiconductors,19.8,8.6,5.8,5.4,Low,0.1141,0.4359,2.89,1,0,1,-0.43330334350692756,False
+NVR,"Nvr, Inc.",Consumer Cyclical,Residential Construction,20.3,7.2,5.2,7.8,Medium,-0.0328,-0.1038,3.4,2,0,1,-0.474238064286266,False
+NVDA,Nvidia Corp,Technology,Semiconductors,13.6,2.3,6.3,4.9,Low,0.1421,0.4061,1.8,1,0,1,-0.4227565383030254,False
+NUE,Nucor Corporation,Basic Materials,Steel,32.8,9.3,8.8,14.7,High,-0.0357,-0.0708,0.48,0,0,-1,-0.5492874869996299,False
+NRG,"Nrg Energy, Inc.",Utilities,Utilities - Independent Power Producers,32.0,16.8,5.7,9.5,High,0.0352,0.1674,3.5,0,0,1,-0.49047375463437437,False
+NCLH,Norwegian Cruise Line Holdings Ltd.s,Consumer Cyclical,Travel Services,25.9,9.0,6.1,10.9,Medium,0.0703,0.2658,2.76,0,0,1,-0.4014658670600135,False
+NOC,Northrop Grumman Corp.,Industrials,Aerospace & Defense,27.5,7.8,5.4,14.4,Medium,0.0443,0.028,0.71,0,0,1,-0.4356431364731799,False
+NTRS,Northern Trust Corp,Financial Services,Asset Management,23.9,1.9,10.2,11.8,Medium,0.086,0.1902,1.03,3,0,1,-0.42033889145137715,False
+NSC,Norfolk Southern Corp.,Industrials,Railroads,23.9,8.0,5.4,10.5,Medium,0.113,0.3227,1.45,0,0,1,-0.4093184272473113,False
+NDSN,Nordson Corp,Industrials,Specialty Industrial Machinery,24.9,8.2,5.1,11.6,Medium,0.0766,0.2047,1.96,0,0,1,-0.3979617328635298,False
+NI,Nisource Inc.,Utilities,Utilities - Regulated Gas,26.0,12.0,4.9,9.2,Medium,0.0323,0.1766,3.03,0,0,1,-0.42516797788483807,False
+NKE,"Nike, Inc.",Consumer Cyclical,Footwear & Accessories,19.6,3.0,6.7,10.0,Low,0.1936,0.8476,3.11,1,0,1,-0.5079315190141056,False
+NEE,"Nextra Energy, Inc.",Utilities,Utilities - Regulated Electric,23.3,9.4,5.6,8.3,Medium,0.0096,0.0053,0.39,2,0,1,-0.4405741034579646,False
+NWSA,News Corporation Class A,Communication Services,Entertainment,11.5,0.0,6.7,4.7,Low,0.1087,0.4274,2.55,1,0,1,-0.46177558685042247,False
+NEM,Newmont Corporation,Basic Materials,Gold,20.5,7.1,5.2,8.2,Medium,0.034,0.0355,0.35,2,0,1,-0.4307635468669823,False
+NFLX,Netflix Inc,Communication Services,Entertainment,16.4,0.1,9.0,7.3,Low,0.1335,0.2884,1.56,1,0,1,-0.4323193880428968,False
+NTAP,"Netapp, Inc",Technology,Computer Hardware,15.4,2.2,5.5,7.7,Low,0.1909,0.4568,1.41,1,0,1,-0.43594393019417293,False
+NDAQ,"Nasdaq, Inc.",Financial Services,Financial Data & Stock Exchanges,13.1,0.0,7.4,5.6,Low,0.1551,0.4007,1.57,1,0,1,-0.4479798306660551,False
+MSCI,"Msci, Inc.",Financial Services,Financial Data & Stock Exchanges,16.3,1.6,7.7,7.0,Low,0.1291,0.5699,3.34,1,0,1,-0.4559104582342495,False
+MSI,"Motorola Solutions, Inc.",Technology,Communication Equipment,13.1,2.3,5.8,5.1,Low,-0.0163,-0.0467,1.77,2,0,1,-0.4327079185205576,False
+MS,Morgan Stanley,Financial Services,Capital Markets,24.6,1.1,10.5,12.9,Medium,0.0797,0.1995,1.35,3,0,1,-0.4271143853679393,False
+MCO,Moody's Corporation,Financial Services,Financial Data & Stock Exchanges,15.8,1.6,8.1,6.1,Low,0.0148,0.0429,0.54,2,0,1,-0.4418127659021734,False
+MNST,Monster Beverage Corporation,Consumer Defensive,Beverages - Non-Alcoholic,29.2,12.1,5.1,12.0,Medium,0.0359,0.1011,1.41,0,0,1,-0.42260502826298135,False
+MDLZ,"Mondelez International, Inc. Class A",Consumer Defensive,Confectioners,22.0,7.2,5.4,9.4,Medium,0.0775,0.2949,2.44,0,0,1,-0.3893546805792599,False
+TAP,Molson Coors Beverage Company Class B,Consumer Defensive,Beverages - Brewers,21.4,7.3,5.5,8.6,Medium,0.0621,0.0746,0.43,2,0,1,-0.41667950835428735,False
+MHK,"Mohawk Industries, Inc.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",14.1,5.8,4.2,4.2,Low,0.0382,0.0475,0.87,2,0,1,-0.4371687263838597,False
+MAA,"Mid-America Apartment Communities, Inc.",Real Estate,REIT - Residential,13.1,3.9,6.3,3.0,Low,-0.003,-0.0132,1.47,2,0,1,-0.44573057778558733,False
+MSFT,Microsoft Corp,Technology,Software - Infrastructure,15.1,1.5,6.1,7.5,Low,0.2772,0.3963,0.43,1,0,1,-0.5083053165721377,False
+MU,"Micron Technology, Inc.",Technology,Semiconductors,18.2,7.2,5.5,5.5,Low,0.1612,0.2878,0.56,1,0,1,-0.4545824441469468,False
+MCHP,Microchip Technology Inc,Technology,Semiconductors,31.8,15.3,7.4,9.2,High,0.111,0.4241,2.88,0,0,1,-0.49126969224530465,False
+MGM,Mgm Resorts International,Consumer Cyclical,Resorts & Casinos,24.8,1.3,10.5,13.0,Medium,0.0258,0.0682,0.97,3,0,1,-0.4410277673096866,False
+MTD,Mettler-Toledo International,Healthcare,Diagnostics & Research,13.1,1.0,4.7,7.4,Low,0.0735,0.1719,2.28,2,0,1,-0.40669583747172644,False
+MET,"Metlife, Inc.",Financial Services,Insurance - Life,16.4,0.7,8.8,7.0,Low,0.0487,0.1139,2.69,2,0,1,-0.42517989465459577,False
+META,"Meta Platforms, Inc. Class A",Communication Services,Internet Content & Information,34.1,2.7,10.3,21.1,High,0.1046,0.3166,1.94,3,0,-1,-0.5482737372636808,False
+MRK,"Merck & Co., Inc.",Healthcare,Drug Manufacturers - General,21.4,1.9,8.9,10.6,Medium,0.0317,0.0889,1.73,3,0,1,-0.40716674434569206,False
+MDT,Medtronic Plc,Healthcare,Medical Devices,22.8,1.8,7.6,13.4,Medium,-0.0064,-0.0077,1.16,3,0,1,-0.4377862199783441,False
+MCK,Mckesson Corporation,Healthcare,Medical Distribution,15.2,1.6,6.3,7.3,Low,0.0788,0.1822,1.33,2,0,1,-0.38933365926256314,False
+MCD,Mcdonald's Corporation,Consumer Cyclical,Restaurants,26.0,7.6,5.8,12.6,Medium,0.0312,0.0201,0.68,0,0,1,-0.42240245167642776,False
+MKC,"Mccormick & Company, Incorporated Non-Vtg Cs",Consumer Defensive,Packaged Foods,26.1,9.6,5.3,11.1,Medium,0.0887,0.3355,2.47,0,0,1,-0.41108798633329524,False
+MA,Mastercard Incorporated,Financial Services,Credit Services,17.1,2.2,8.3,6.7,Low,0.0796,0.17,0.58,2,0,1,-0.420732232730948,False
+MAS,Masco Corporation,Industrials,Building Products & Equipment,22.2,9.7,6.8,5.6,Medium,0.1787,0.6891,2.69,1,0,1,-0.4813465598666868,False
+MLM,Martin Marietta Materials,Basic Materials,Building Materials,30.1,16.7,8.7,4.8,High,-0.0022,-0.0106,1.21,0,0,-1,-0.5253938611591681,False
+MMC,"Marsh & Mclennan Companies, Inc.",Financial Services,Insurance Brokers,21.1,0.1,9.7,11.3,Medium,0.1498,0.429,2.13,3,0,1,-0.45435791780585577,False
+MAR,Marriot International Class A,Consumer Cyclical,Lodging,21.4,8.6,3.7,9.2,Medium,-0.0139,-0.0057,0.63,2,0,1,-0.45823470867190264,False
+MPC,Marathon Petroleum Corporation,Energy,Oil & Gas Refining & Marketing,30.5,17.1,5.3,8.1,High,0.0179,0.0138,0.81,0,0,1,-0.48417035281690285,False
+MRO,Marathon Oil Corporation,Energy,Oil & Gas E&P,37.7,21.1,7.6,9.1,High,0.0085,-0.0101,0.85,0,0,-1,-0.5646372449096151,False
+MTB,M&t Bank Corp.,Financial Services,Banks - Regional,26.5,2.6,13.6,10.3,Medium,-0.0451,-0.18,3.44,3,-1,-1,-0.5825010967594026,True
+LYB,Lyondellbasell Industries N.v. Class A,Basic Materials,Specialty Chemicals,20.7,13.5,5.1,2.1,Medium,0.0457,0.1738,3.4,2,0,1,-0.4915792840290581,False
+LULU,Lululemon Athletica Inc.,Consumer Cyclical,Apparel Retail,16.9,1.6,5.5,9.9,Low,0.0842,0.1872,1.13,2,0,1,-0.39614929290740714,False
+LOW,Lowe's Companies Inc.,Consumer Cyclical,Home Improvement Retail,11.8,3.3,3.2,5.3,Low,0.1001,0.3983,3.27,1,0,1,-0.47159946043459783,False
+L,Loews Corporation,Financial Services,Insurance - Property & Casualty,16.4,0.6,11.5,4.3,Low,0.1822,0.4486,1.2,1,0,1,-0.514743336484083,False
+LMT,Lockheed Martin Corp.,Industrials,Aerospace & Defense,30.2,8.0,7.1,15.1,High,0.0269,0.0799,1.34,0,0,1,-0.4404999870275724,False
+LKQ,Lkq Corporation,Consumer Cyclical,Auto Parts,11.1,3.8,3.3,4.0,Low,0.0868,0.0979,1.08,2,0,1,-0.45723536344231064,False
+LEN,Lennar Corporation Class A,Consumer Cyclical,Residential Construction,25.4,11.3,5.6,8.6,Medium,0.0856,0.1632,1.22,0,0,1,-0.4091822316690462,False
+LDOS,"Leidos Holdings, Inc.",Technology,Information Technology Services,17.6,3.4,5.3,9.0,Low,0.0289,0.09,1.84,2,0,1,-0.3911983198143956,False
+LVS,Las Vegas Sands Corp.,Consumer Cyclical,Resorts & Casinos,18.7,2.3,8.7,7.7,Low,0.0309,0.0749,1.38,2,0,1,-0.41229747122586147,False
+LRCX,Lam Research Corp,Technology,Semiconductor Equipment & Materials,13.6,4.5,5.1,4.0,Low,0.0718,0.2729,2.48,2,0,1,-0.4107361022923116,False
+LH,Labcorp Holdings Inc.,Healthcare,Diagnostics & Research,19.7,0.4,6.6,12.7,Low,0.1218,0.3854,1.81,1,0,1,-0.4291297953882131,False
+KLAC,Kla Corporation,Technology,Semiconductor Equipment & Materials,17.2,7.4,4.6,5.1,Low,-0.0216,-0.1234,3.27,2,0,1,-0.490217974008166,False
+KMI,"Kinder Morgan, Inc.",Energy,Oil & Gas Midstream,19.0,8.3,3.5,7.2,Low,0.076,0.3088,3.3,2,0,1,-0.4472488715303004,False
+KIM,Kimco Realty Corp.,Real Estate,REIT - Retail,10.9,2.3,6.0,2.6,Low,0.0546,0.2656,2.99,2,0,1,-0.4572460909266938,False
+KMB,Kimberly-Clark Corp.,Consumer Defensive,Household & Personal Products,28.5,10.4,7.6,10.4,Medium,0.0935,0.1695,0.95,0,0,1,-0.42679783928241793,False
+KEYS,"Keysight Technologies, Inc.",Technology,Scientific & Technical Instruments,7.6,1.2,4.7,1.8,Negligible,0.0945,0.3597,2.91,1,0,1,-0.5027122371572896,False
+KEY,Keycorp,Financial Services,Banks - Regional,21.4,1.6,10.7,9.2,Medium,0.0945,0.2936,1.45,3,0,1,-0.4260522907812968,False
+K,Kellanova,Consumer Defensive,Packaged Foods,28.4,10.6,4.4,13.4,Medium,0.0692,0.2992,2.91,0,0,1,-0.43393693502688163,False
+JNPR,Juniper Networks Inc,Technology,Communication Equipment,14.8,1.8,5.8,7.2,Low,-0.043,-0.1499,1.78,2,0,1,-0.46751373854561173,False
+JPM,Jpmorgan Chase & Co.,Financial Services,Banks - Diversified,29.3,1.1,11.7,16.5,Medium,0.1326,0.3603,1.91,3,0,1,-0.5221652917901206,False
+JCI,Johnson Controls International Plc,Industrials,Building Products & Equipment,14.4,4.5,5.4,4.6,Low,0.0763,0.1865,1.53,2,0,1,-0.39719648804930513,False
+JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers - General,24.0,0.9,8.0,15.0,Medium,0.1435,0.4762,2.3,3,0,1,-0.4596121309011582,False
+JBHT,Jb Hunt Transport Services Inc,Industrials,Integrated Freight & Logistics,14.8,3.3,5.0,6.6,Low,-0.0139,0.01,0.75,2,0,1,-0.43974770020456105,False
+J,Jacobs Solutions Inc.,Industrials,Engineering & Construction,22.4,5.3,5.6,11.5,Medium,0.0855,0.2944,2.01,0,0,1,-0.3931187773538653,False
+IRM,Iron Mountain Inc.,Real Estate,REIT - Specialty,14.5,5.0,5.8,3.7,Low,0.0455,0.0886,0.79,2,0,1,-0.4201517096570002,False
+IQV,Iqvia Holdings Inc.,Healthcare,Diagnostics & Research,19.1,1.3,7.2,10.6,Low,0.0245,0.0657,2.68,2,0,1,-0.41386197079138043,False
+IVZ,Invesco Ltd,Financial Services,Asset Management,22.8,0.7,11.0,11.0,Medium,0.0836,0.2982,2.74,3,0,1,-0.4433438568683638,False
+ISRG,Intuitive Surgical Inc.,Healthcare,Medical Instruments & Supplies,21.1,3.7,7.8,9.6,Medium,0.0691,0.2965,2.93,3,0,1,-0.4002296603594435,False
+INTU,Intuit Inc,Technology,Software - Application,16.4,1.0,4.7,10.7,Low,0.0984,0.3496,2.85,1,0,1,-0.42306098545838267,False
+IP,International Paper Co.,Consumer Cyclical,Packaging & Containers,24.5,15.1,4.8,4.5,Medium,0.0444,0.1436,2.61,0,0,1,-0.45464836043741247,False
+IFF,International Flavors & Fragrances Inc.,Basic Materials,Specialty Chemicals,22.7,10.5,6.6,5.6,Medium,0.1122,0.4356,2.52,1,0,1,-0.4392238580298902,False
+IBM,International Business Machines Corporation,Technology,Information Technology Services,14.1,1.8,6.1,6.2,Low,-0.0106,-0.017,1.41,2,0,1,-0.42700613889489686,False
+ICE,Intercontinental Exchange Inc.,Financial Services,Financial Data & Stock Exchanges,19.8,1.7,8.8,9.3,Low,-0.0089,0.0201,1.78,2,0,1,-0.4279124530164633,False
+INTC,Intel Corp,Technology,Semiconductors,18.9,4.9,6.6,7.3,Low,0.1344,0.5171,2.26,1,0,1,-0.41810581669098806,False
+INCY,Incyte Genomics Inc,Healthcare,Biotechnology,24.8,1.1,7.4,16.3,Medium,0.0966,0.3626,2.53,3,0,1,-0.4483994259711355,False
+ILMN,Illumina Inc,Healthcare,Diagnostics & Research,18.6,0.1,6.9,11.6,Low,0.103,0.1975,0.79,3,0,1,-0.4237663864705006,False
+ITW,Illinois Tool Works Inc.,Industrials,Specialty Industrial Machinery,25.3,7.0,6.5,11.8,Medium,0.1541,0.4498,1.66,1,0,1,-0.4331610268514035,False
+IDXX,Idexx Laboratories Inc,Healthcare,Diagnostics & Research,18.7,2.6,8.9,7.1,Low,0.101,0.4336,3.26,1,0,1,-0.43970839472684714,False
+IEX,Idex Corporation,Industrials,Specialty Industrial Machinery,29.3,10.3,5.3,13.7,Medium,0.0105,0.0431,3.45,0,0,1,-0.4565214395457618,False
+HBAN,Huntington Bancshares Inc,Financial Services,Banks - Regional,21.8,2.0,8.7,11.2,Medium,0.2069,0.5489,1.58,1,0,1,-0.47979920150777117,False
+HUM,Humana Inc.,Healthcare,Healthcare Plans,22.5,0.0,5.7,16.7,Medium,0.0805,0.2987,2.87,3,0,1,-0.45860927741695795,False
+HUBB,Hubbell Incorporated,Industrials,Electrical Equipment & Parts,19.6,5.6,4.9,9.1,Low,0.1026,0.3658,3.24,1,0,1,-0.41426534799353054,False
+HPQ,Hp Inc.,Technology,Computer Hardware,11.3,0.1,6.1,5.1,Low,0.0168,0.0226,2.66,2,0,1,-0.4599764329636998,False
+HST,"Host Hotels & Resorts, Inc.",Real Estate,REIT - Hotel & Motel,13.4,3.3,5.5,4.6,Low,-0.0051,-0.0218,1.75,2,0,1,-0.42356703014101416,False
+HRL,Hormel Foods Corporation,Consumer Defensive,Packaged Foods,30.0,13.3,6.0,10.7,Medium,0.0702,0.1949,1.89,0,0,1,-0.42122761627399447,False
+HON,"Honeywell International, Inc.",Industrials,Conglomerates,28.6,11.0,7.0,10.6,Medium,0.1002,0.2418,1.46,0,0,1,-0.4146178044957957,False
+HD,"Home Depot, Inc.",Consumer Cyclical,Home Improvement Retail,12.6,3.3,3.8,5.6,Low,0.1809,0.2766,0.34,1,0,1,-0.496103240501267,False
+HOLX,Hologic Inc,Healthcare,Medical Instruments & Supplies,25.0,4.6,8.4,12.1,Medium,0.029,0.1422,3.38,3,0,1,-0.4325849510838356,False
+HLT,Hilton Worldwide Holdings Inc.,Consumer Cyclical,Lodging,17.6,6.1,4.4,7.0,Low,0.0539,0.0515,0.57,2,0,1,-0.42097546957697324,False
+HPE,Hewlett Packard Enterprise Company,Technology,Communication Equipment,10.7,0.9,5.6,4.1,Low,0.1201,0.3896,2.21,1,0,1,-0.44546405505443376,False
+HES,Hess Corporation,Energy,Oil & Gas E&P,33.1,18.9,7.0,7.2,High,0.051,0.0998,0.97,0,0,1,-0.49493550564971406,False
+HSIC,Henry Schein Inc,Healthcare,Medical Distribution,13.9,2.0,6.3,5.7,Low,0.0831,0.1634,0.91,2,0,1,-0.40720920417703493,False
+JKHY,Henry (Jack) & Associates,Technology,Information Technology Services,18.7,4.3,5.7,8.7,Low,0.1174,0.3485,2.11,1,0,1,-0.395505554826131,False
+HCA,"Hca Healthcare, Inc.",Healthcare,Medical Care Facilities,28.8,3.9,7.2,17.7,Medium,0.1733,0.39,1.71,3,0,1,-0.49306929943026584,False
+HAS,"Hasbro, Inc.",Consumer Cyclical,Leisure,7.1,0.0,4.2,2.9,Negligible,0.1448,0.1979,0.8,1,0,1,-0.5166498394334407,False
+HAL,Halliburton Company,Energy,Oil & Gas Equipment & Services,25.6,9.8,6.9,8.9,Medium,0.0703,0.2965,3.33,0,0,1,-0.42288883897869495,False
+GS,Goldman Sachs Group Inc.,Financial Services,Capital Markets,25.5,0.9,11.8,12.8,Medium,0.0096,0.009,2.36,3,0,1,-0.47025397641781497,False
+GL,Globe Life Inc.,Financial Services,Insurance - Life,20.4,1.6,10.5,8.3,Medium,0.0619,0.1093,0.8,3,0,1,-0.43123959357141617,False
+GPN,"Global Payments, Inc.",Industrials,Specialty Business Services,20.9,3.7,6.5,10.7,Medium,0.1068,0.1862,0.39,2,0,1,-0.4235235398004879,False
+GILD,Gilead Sciences Inc,Healthcare,Drug Manufacturers - General,23.0,1.0,7.6,14.3,Medium,0.0477,0.1428,2.45,3,0,1,-0.41808520608314026,False
+GPC,Genuine Parts Company,Consumer Cyclical,Auto Parts,13.7,4.7,3.8,5.2,Low,0.0385,0.1452,2.39,2,0,1,-0.4219411783984367,False
+GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,28.5,9.8,7.2,11.5,Medium,0.049,0.0949,1.08,0,0,1,-0.4141854343988494,False
+GIS,"General Mills, Inc.",Consumer Defensive,Packaged Foods,21.1,8.3,4.1,8.7,Medium,0.1084,0.4424,2.96,1,0,1,-0.4394918893158459,False
+GE,General Electric Company,Industrials,Aerospace & Defense,40.5,14.2,10.9,15.4,Severe,0.1423,0.2482,0.96,3,0,-1,-0.5832284849012602,False
+GD,General Dynamics Corporation,Industrials,Aerospace & Defense,35.2,9.4,6.9,18.9,High,0.0897,0.111,0.34,0,0,-1,-0.5478853549847031,False
+GEN,Gen Digital Inc.,Technology,Software - Infrastructure,16.9,3.3,5.4,8.2,Low,-0.0136,-0.0035,3.16,2,0,1,-0.4260574127718651,False
+IT,"Gartner, Inc.",Technology,Information Technology Services,18.9,0.1,5.6,13.2,Low,0.0782,0.198,1.13,2,0,1,-0.42239163081169967,False
+GRMN,Garmin Ltd,Technology,Scientific & Technical Instruments,20.7,4.8,4.3,11.6,Medium,0.2253,0.4335,1.16,1,0,1,-0.49103595119639476,False
+FCX,Freeport-Mcmoran Inc.,Basic Materials,Copper,31.6,15.3,6.4,10.0,High,-0.0168,0.001,2.07,0,0,1,-0.4824884034727161,False
+BEN,"Franklin Resources, Inc.",Financial Services,Asset Management,18.3,1.1,7.3,9.9,Low,-0.0077,-0.0496,3.34,2,0,1,-0.4582065373458832,False
+FTV,Fortive Corporation,Technology,Scientific & Technical Instruments,34.8,16.1,4.7,14.0,High,0.0764,0.3236,3.08,0,0,1,-0.5110514782130201,False
+FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,18.9,2.5,6.4,10.0,Low,0.1977,0.7623,2.86,1,0,1,-0.4935757658802674,False
+F,Ford Motor Company,Consumer Cyclical,Auto Manufacturers,22.4,7.4,8.5,6.4,Medium,0.0482,0.1024,1.16,2,0,1,-0.42044605530698614,False
+FMC,Fmc Corporation,Basic Materials,Agricultural Inputs,30.7,14.4,7.5,8.9,High,0.1893,0.4225,1.13,0,0,1,-0.5118697560343506,False
+FI,"Fiserv, Inc.",Technology,Information Technology Services,19.6,4.1,6.8,8.7,Low,0.1337,0.5893,3.45,1,0,1,-0.45139172561541924,False
+FE,Firstenergy Corp.,Utilities,Utilities - Regulated Electric,25.6,10.8,5.8,9.0,Medium,0.0042,0.0122,1.17,0,0,1,-0.4220590103613462,False
+FITB,Fifth Third Bancorp,Financial Services,Banks - Regional,16.8,1.2,7.5,8.1,Low,0.0898,0.1661,1.18,2,0,1,-0.40111642170062856,False
+FIS,"Fidelity National Information Services, Inc.",Technology,Information Technology Services,17.5,4.1,5.2,8.2,Low,0.2804,1.1307,2.96,1,-1,-1,-0.5783820638377428,True
+FDX,Fedex Corporation,Industrials,Integrated Freight & Logistics,19.7,5.7,5.6,8.4,Low,0.0728,0.264,2.22,2,0,1,-0.39209879111881685,False
+FRT,Federal Realty Investment Trust,Real Estate,REIT - Retail,12.4,2.3,5.8,4.3,Low,0.0099,0.0571,3.23,2,0,1,-0.43274125082647785,False
+FAST,Fastenal Co,Industrials,Industrial Distribution,24.7,9.3,7.1,8.3,Medium,-0.032,-0.1333,1.96,2,0,1,-0.4735726032906465,False
+FDS,Factset Research Systems,Financial Services,Financial Data & Stock Exchanges,18.4,4.3,5.3,8.8,Low,0.0626,0.2082,2.23,2,0,1,-0.38401876215599173,False
+FFIV,"F5, Inc.",Technology,Software - Infrastructure,17.1,4.1,5.4,7.6,Low,0.0711,0.1159,1.22,2,0,1,-0.3861636850936814,False
+XOM,Exxon Mobil Corporation,Energy,Oil & Gas Integrated,41.6,23.1,8.5,10.0,Severe,0.1439,0.2974,1.25,0,0,-1,-0.6002278222291758,False
+EXR,"Extra Space Storage, Inc.",Real Estate,REIT - Industrial,15.2,4.2,7.3,3.7,Low,0.0115,0.1184,2.42,2,0,1,-0.42564684786414547,False
+EXPD,"Expeditors International of Washington, Inc.",Industrials,Integrated Freight & Logistics,16.6,4.2,4.8,7.6,Low,0.0648,0.1341,0.99,2,0,1,-0.3945420200039305,False
+EXPE,"Expedia Group, Inc.",Consumer Cyclical,Travel Services,27.6,4.3,10.1,13.3,Medium,0.0355,0.1061,1.89,3,0,1,-0.42525730500926084,False
+EXC,Exelon Corporation,Utilities,Utilities - Regulated Electric,22.9,7.4,6.4,9.1,Medium,-0.0038,0.0153,2.77,2,0,1,-0.41463119176076685,False
+ES,Eversource Energy,Utilities,Utilities - Regulated Electric,18.6,4.7,5.4,8.6,Low,0.0293,0.1558,2.5,2,0,1,-0.391297857532469,False
+EG,"Everest Group, Ltd.",Financial Services,Insurance - Reinsurance,18.0,1.4,9.9,6.7,Low,0.0021,-0.0038,2.92,2,0,1,-0.45278242855493767,False
+ESS,"Essex Property Trust, Inc",Real Estate,REIT - Residential,12.4,3.5,6.1,2.8,Low,0.059,0.1572,1.17,2,0,1,-0.4241814936893609,False
+EQR,Equity Residential,Real Estate,REIT - Residential,11.9,3.0,6.1,2.9,Low,-0.0129,0.0138,0.59,2,0,1,-0.4720977995151417,False
+EQIX,"Equinix, Inc. Reit",Real Estate,REIT - Specialty,13.9,3.4,5.1,5.3,Low,0.0378,0.0901,0.89,2,0,1,-0.41055786275064693,False
+EFX,"Equifax, Incorporated",Industrials,Consulting Services,23.2,0.1,6.8,16.3,Medium,0.1132,0.4161,2.64,3,0,1,-0.4637249126154612,False
+EQT,Eqt Corp,Energy,Oil & Gas E&P,35.7,17.7,7.9,10.1,High,0.0892,0.3459,2.52,0,0,1,-0.5042767612322553,False
+EOG,"Eog Resources, Inc.",Energy,Oil & Gas E&P,34.2,20.2,7.3,6.7,High,0.0182,0.0713,1.87,0,0,1,-0.5240165068751025,False
+ETR,Entergy Corporation,Utilities,Utilities - Regulated Electric,26.7,14.0,5.3,7.3,Medium,0.0386,0.0787,0.88,0,0,1,-0.43190537144466895,False
+EMR,Emerson Electric Co.,Industrials,Specialty Industrial Machinery,28.4,8.8,6.6,13.1,Medium,0.1009,0.1462,0.41,0,0,1,-0.4459926399974274,False
+LLY,Eli Lilly & Co.,Healthcare,Drug Manufacturers - General,24.3,2.5,9.1,12.6,Medium,0.0251,0.1386,3.26,3,0,1,-0.4301279198876572,False
+ELV,"Elevance Health, Inc.",Healthcare,Healthcare Plans,11.4,0.1,5.3,6.0,Low,0.1577,0.629,3.0,1,0,1,-0.4879990857720378,False
+EA,Electronic Arts Inc,Communication Services,Electronic Gaming & Multimedia,13.3,0.1,4.7,8.4,Low,0.1263,0.1637,0.42,2,0,1,-0.47388181015252434,False
+EW,Edwards Lifesciences Corp,Healthcare,Medical Devices,18.6,2.9,7.6,8.1,Low,0.0057,0.0246,0.69,2,0,1,-0.43048137698909156,False
+EIX,Edison International,Utilities,Utilities - Regulated Electric,27.5,11.0,5.1,11.4,Medium,0.0344,0.0679,1.39,0,0,1,-0.4070151095112972,False
+ECL,"Ecolab, Inc.",Basic Materials,Specialty Chemicals,19.9,8.5,5.3,6.1,Low,0.0443,0.1064,1.31,2,0,1,-0.4034048786385736,False
+EBAY,Ebay Inc,Consumer Cyclical,Internet Retail,17.6,2.7,7.2,7.7,Low,0.1568,0.3697,1.32,1,0,1,-0.4261410105082324,False
+ETN,"Eaton Corporation, Plcs",Industrials,Specialty Industrial Machinery,17.9,5.5,5.7,6.8,Low,0.1034,0.3466,2.27,1,0,1,-0.399284858001974,False
+DD,"Dupont De Nemours, Inc.",Basic Materials,Specialty Chemicals,28.6,14.7,5.9,8.0,Medium,0.0649,0.3115,3.31,0,0,1,-0.45631525754382485,False
+DUK,Duke Energy Corporation,Utilities,Utilities - Regulated Electric,27.0,11.5,4.8,10.7,Medium,0.0545,0.1203,1.59,0,0,1,-0.4053060004447126,False
+DTE,Dte Energy Company,Utilities,Utilities - Regulated Electric,29.8,15.0,4.7,10.0,Medium,0.076,0.3003,3.1,0,0,1,-0.45518758820550537,False
+DOV,Dover Corporation,Industrials,Specialty Industrial Machinery,25.9,8.0,5.4,12.5,Medium,-0.0241,-0.1409,2.66,0,0,1,-0.4790088124423546,False
+D,"Dominion Energy, Inc",Utilities,Utilities - Regulated Electric,26.4,11.9,5.6,8.8,Medium,0.0216,0.0441,1.43,0,0,1,-0.41100682675411637,False
+DLTR,Dollar Tree Inc.,Consumer Defensive,Discount Stores,20.1,3.3,4.0,12.8,Medium,0.0398,0.0499,1.05,2,0,1,-0.42824664823735636,False
+DG,Dollar General Corp.,Consumer Defensive,Discount Stores,17.6,3.5,5.5,8.6,Low,0.0786,0.2059,1.53,2,0,1,-0.3833180727645519,False
+DFS,Discover Financial Services,Financial Services,Credit Services,22.5,0.1,10.5,11.9,Medium,0.0265,0.1354,3.34,3,0,1,-0.46427018946327886,False
+DLR,"Digital Realty Trust, Inc.",Real Estate,REIT - Specialty,12.6,2.8,7.0,2.8,Low,0.0695,0.2942,3.32,2,0,1,-0.46008618779014976,False
+DXCM,"Dexcom, Inc.",Healthcare,Medical Devices,24.0,5.3,8.1,10.6,Medium,0.2286,0.3994,0.83,1,0,1,-0.4910298505857111,False
+DVN,Devon Energy Corporation,Energy,Oil & Gas E&P,33.8,17.7,7.5,8.6,High,0.0617,0.2148,2.24,0,0,1,-0.4794622679516032,False
+DAL,"Delta Air Lines, Inc.",Industrials,Airlines,30.3,9.9,5.8,14.6,High,-0.0185,-0.0323,0.86,0,0,1,-0.47542199349154185,False
+DE,Deere & Company,Industrials,Farm & Heavy Construction Machinery,20.0,2.7,6.5,10.8,Low,0.0288,0.0928,2.79,2,0,1,-0.40402945694648074,False
+DHR,Danaher Corporation,Healthcare,Diagnostics & Research,11.9,1.4,5.3,5.2,Low,0.0602,0.2601,3.4,2,0,1,-0.440638761232993,False
+DHI,D.R. Horton Inc.,Consumer Cyclical,Residential Construction,21.0,8.7,5.7,6.7,Medium,0.1552,0.5304,2.53,1,0,1,-0.44727509219066014,False
+CVS,Cvs Health Corporation,Healthcare,Healthcare Plans,22.0,0.0,6.2,15.8,Medium,0.1106,0.212,1.02,3,0,1,-0.4523941727075322,False
+CMI,Cummins Inc.,Industrials,Specialty Industrial Machinery,19.3,5.6,5.9,7.7,Low,0.0701,0.1788,2.2,2,0,1,-0.3882809515670131,False
+CSX,Csx Corporation,Industrials,Railroads,21.9,7.0,4.8,10.0,Medium,0.018,0.0789,3.11,2,0,1,-0.41044040189443054,False
+CCI,Crown Castle Inc.,Real Estate,REIT - Specialty,10.1,4.1,4.3,1.7,Low,0.0216,0.0779,3.14,2,0,1,-0.4905500475951293,False
+CTRA,Coterra Energy Inc.,Energy,Oil & Gas E&P,36.1,20.3,7.5,8.3,High,0.088,0.3022,2.06,0,0,1,-0.5187205002988942,False
+COST,Costco Wholesale Corp,Consumer Defensive,Discount Stores,23.3,6.5,5.6,11.2,Medium,0.0729,0.1578,1.49,0,0,1,-0.3896868567268351,False
+CSGP,Costar Group Inc,Real Estate,Real Estate Services,21.9,4.9,7.7,9.3,Medium,0.0665,0.1635,1.89,3,0,1,-0.39316767981297696,False
+GLW,Corning Incorporated,Technology,Electronic Components,16.5,5.5,6.1,4.8,Low,0.0786,0.323,3.02,1,0,1,-0.4142144315233109,False
+CPRT,Copart Inc,Industrials,Specialty Business Services,16.0,1.5,5.6,9.0,Low,-0.114,-0.3905,2.2,2,0,-1,-0.5584493613573508,False
+STZ,"Constellation Brands, Inc.",Consumer Defensive,Beverages - Wineries & Distilleries,24.7,9.4,5.2,10.0,Medium,0.0604,0.241,2.47,0,0,1,-0.4001151512502158,False
+ED,"Consolidated Edison, Inc.",Utilities,Utilities - Regulated Electric,23.8,6.9,6.1,10.9,Medium,-0.0028,0.0024,3.11,2,0,1,-0.42703896179379974,False
+COP,Conocophillips,Energy,Oil & Gas E&P,33.9,17.6,8.3,8.1,High,0.0913,0.4006,3.02,0,0,1,-0.5164848651174022,False
+CAG,"Conagra Brands, Inc.",Consumer Defensive,Packaged Foods,30.8,10.7,4.7,15.4,High,0.0962,0.4043,2.98,0,0,1,-0.4790685784524756,False
+CMA,Comerica Incorporated,Financial Services,Banks - Regional,25.2,2.5,11.7,11.0,Medium,0.1333,0.4724,2.28,3,0,1,-0.4702255418907773,False
+CMCSA,Comcast Corp,Communication Services,Telecom Services,23.1,4.0,8.2,10.9,Medium,0.031,0.1423,3.12,3,0,1,-0.41315415568729247,False
+CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,26.2,8.3,6.5,11.3,Medium,0.0733,0.1783,1.37,0,0,1,-0.40238317598776,False
+CTSH,Cognizant Technology Solutions,Technology,Information Technology Services,14.7,1.1,5.9,7.6,Low,0.0648,0.2688,2.92,2,0,1,-0.40262596080439234,False
+KO,Coca-Cola Company,Consumer Defensive,Beverages - Non-Alcoholic,21.6,7.2,4.9,9.5,Medium,0.0811,0.1455,0.32,2,0,1,-0.4292540212212872,False
+CMS,Cms Energy Corporation,Utilities,Utilities - Regulated Electric,21.7,9.6,5.2,6.8,Medium,0.0464,0.1611,3.44,2,0,1,-0.42622865340594973,False
+CME,Cme Group Inc.,Financial Services,Financial Data & Stock Exchanges,17.8,2.1,9.2,6.5,Low,0.012,0.0624,2.33,2,0,1,-0.42339937965706653,False
+CLX,Clorox Company,Consumer Defensive,Household & Personal Products,21.6,7.7,5.3,8.6,Medium,0.1398,0.236,0.64,1,0,1,-0.4225686648314885,False
+CFG,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional,23.5,2.0,11.4,10.1,Medium,0.0925,0.4525,3.38,3,0,1,-0.47606303496935676,False
+C,Citigroup Inc.,Financial Services,Banks - Diversified,29.2,1.8,13.7,13.8,Medium,0.1404,0.5582,3.28,3,0,-1,-0.551862713548411,False
+CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,13.9,0.4,6.5,6.9,Low,0.0843,0.1966,1.26,2,0,1,-0.41210647636341907,False
+CTAS,Cintas Corp,Industrials,Specialty Business Services,18.1,3.0,5.9,9.2,Low,0.0419,0.1376,2.16,2,0,1,-0.38750088752278156,False
+CINF,Cincinnati Financial Corp,Financial Services,Insurance - Property & Casualty,25.6,1.8,12.9,11.0,Medium,0.1398,0.1564,0.45,3,0,1,-0.5079642447597195,False
+CHD,"Church & Dwight Co., Inc.",Consumer Defensive,Household & Personal Products,19.9,6.9,6.7,6.3,Low,0.0947,0.1148,0.38,2,0,1,-0.4332108643469552,False
+CB,Chubb Limited,Financial Services,Insurance - Property & Casualty,23.6,1.5,10.6,11.5,Medium,0.1583,0.5499,2.49,3,0,1,-0.4725127276350754,False
+CMG,"Chipotle Mexican Grill, Inc.",Consumer Cyclical,Restaurants,20.7,6.8,4.3,9.6,Medium,-0.0321,-0.1562,3.49,2,0,1,-0.49757778246480344,False
+CVX,Chevron Corporation,Energy,Oil & Gas Integrated,36.6,17.0,10.4,9.2,High,-0.0514,-0.1596,0.82,0,-1,-1,-0.6098659447997581,True
+CHTR,Charter Comm Inc Del Cl a,Communication Services,Telecom Services,24.7,6.1,7.9,10.7,Medium,0.1089,0.2482,1.01,3,0,1,-0.42108050572973416,False
+CF,"Cf Industries Holding, Inc.",Basic Materials,Agricultural Inputs,29.3,16.2,5.4,7.7,Medium,0.0746,0.2364,2.39,0,0,1,-0.4520949681160329,False
+CNP,"Centerpoint Energy, Inc.",Utilities,Utilities - Regulated Electric,28.7,12.9,5.1,10.7,Medium,0.0256,0.076,3.32,0,0,1,-0.439921905063695,False
+CNC,Centene Corporation,Healthcare,Healthcare Plans,19.9,0.1,6.5,13.3,Low,0.2008,0.4844,1.57,1,0,1,-0.47944541032266386,False
+COR,"Cencora, Inc.",Healthcare,Medical Distribution,12.8,1.6,5.7,5.5,Low,0.1439,0.2867,1.04,1,0,1,-0.4236973444856764,False
+CE,Celanese Corporation,Basic Materials,Chemicals,26.1,14.7,5.6,5.9,Medium,-0.0151,-0.0181,3.07,0,0,1,-0.4832902307207778,False
+CDW,Cdw Corporation,Technology,Information Technology Services,9.2,2.5,3.5,3.2,Negligible,0.1604,0.303,0.89,1,0,1,-0.5044508757107887,False
+CBRE,"Cbre Group, Inc.",Real Estate,Real Estate Services,8.0,1.5,4.6,1.9,Negligible,0.0503,0.2031,2.77,2,0,1,-0.49355813052107983,False
+CBOE,"Cboe Global Markets, Inc.",Financial Services,Financial Data & Stock Exchanges,21.0,2.7,10.6,7.6,Medium,0.103,0.3585,2.3,3,0,1,-0.4304547818228813,False
+CAT,Caterpillar Inc.,Industrials,Farm & Heavy Construction Machinery,36.2,10.4,8.1,17.7,High,0.0698,0.29,2.85,0,0,1,-0.5090644230111447,False
+CCL,Carnival Corporation,Consumer Cyclical,Travel Services,24.5,9.4,5.0,10.1,Medium,0.0082,0.0124,0.7,0,0,1,-0.42375195232693963,False
+KMX,Carmax Inc.,Consumer Cyclical,Auto & Truck Dealerships,12.1,0.1,4.0,8.0,Low,0.0294,0.1111,0.94,2,0,1,-0.44821142814431764,False
+CAH,"Cardinal Health, Inc.",Healthcare,Medical Distribution,14.9,1.2,6.4,7.3,Low,0.0456,0.1436,2.16,2,0,1,-0.3977257457873703,False
+COF,Capital One Financial,Financial Services,Credit Services,22.5,0.1,10.1,12.3,Medium,0.122,0.2603,1.29,3,0,1,-0.4418480238380751,False
+CPB,Campbell Soup Company,Consumer Defensive,Packaged Foods,23.5,10.9,4.5,8.1,Medium,0.0689,0.1048,0.53,0,0,1,-0.4265352467087845,False
+CPT,Camden Property Trust,Real Estate,REIT - Residential,16.1,4.0,8.2,3.9,Low,0.0264,0.0124,2.22,2,0,1,-0.4300944225648539,False
+CDNS,Cadence Design Systems,Technology,Software - Application,12.0,2.3,4.8,4.9,Low,0.2019,0.7853,3.05,1,0,1,-0.5184079198804722,False
+CHRW,"C.H. Robinson Worldwide, Inc.",Industrials,Integrated Freight & Logistics,19.3,4.7,5.3,9.3,Low,0.0117,0.0227,1.07,2,0,1,-0.4084907751798884,False
+BG,Bunge Global Sa,Consumer Defensive,Farm Products,32.9,14.4,5.3,13.3,High,0.1761,0.624,2.55,0,0,-1,-0.5445590802645126,False
+BRO,"Brown & Brown, Inc.",Financial Services,Insurance Brokers,20.5,0.1,10.6,9.8,Medium,0.069,0.1625,1.34,3,0,1,-0.43071485131213505,False
+BR,Broadridge Financial Solutions Inc,Technology,Information Technology Services,16.6,4.2,4.9,7.5,Low,0.0499,0.122,1.42,2,0,1,-0.38737197748470764,False
+AVGO,Broadcom Inc.,Technology,Semiconductors,20.0,7.3,6.6,6.0,Low,0.0399,0.1158,2.12,2,0,1,-0.4005677098484649,False
+BMY,Bristol-Myers Squibb Co.,Healthcare,Drug Manufacturers - General,22.7,1.3,7.1,14.4,Medium,0.1493,0.3085,0.94,3,0,1,-0.45077306222899555,False
+BSX,Boston Scientific Corp.,Healthcare,Medical Devices,23.1,2.4,8.9,11.9,Medium,0.174,0.2715,0.4,3,0,1,-0.4689074378404114,False
+BXP,"Boston Properties, Inc.",Real Estate,REIT - Office,12.5,2.5,5.4,4.5,Low,0.0944,0.3964,3.09,1,0,1,-0.42712179865776634,False
+BWA,Borgwarner Inc.,Consumer Cyclical,Auto Parts,12.6,2.7,5.7,4.2,Low,0.1237,0.3143,1.39,1,0,1,-0.420878306931462,False
+BKNG,Booking Holdings Inc.,Consumer Cyclical,Travel Services,19.2,1.0,8.1,10.1,Low,0.0769,0.3295,2.92,3,0,1,-0.4133809640285825,False
+BA,Boeing Company,Industrials,Aerospace & Defense,39.6,8.8,8.3,22.5,High,0.1638,0.4681,1.98,3,-1,-1,-0.6043423743706144,True
+BX,Blackstone Inc.,Financial Services,Asset Management,23.4,2.5,11.3,9.6,Medium,0.0615,0.098,0.49,3,0,1,-0.44978101002269555,False
+BLK,"Blackrock, Inc.",Financial Services,Asset Management,18.3,0.9,10.0,7.4,Low,0.0474,0.1795,3.09,3,0,1,-0.441944540462417,False
+BIIB,Biogen Inc.,Healthcare,Drug Manufacturers - General,22.2,0.4,7.4,14.5,Medium,0.0281,0.0917,2.83,3,0,1,-0.43618976365094975,False
+BIO,"Bio-Rad Laboratories, Inc.Class A",Healthcare,Medical Devices,17.4,1.2,7.0,9.2,Low,0.0885,0.3367,2.08,1,0,1,-0.4034613203384757,False
+BBY,"Best Buy Company, Inc.",Consumer Cyclical,Specialty Retail,15.9,2.4,4.4,9.1,Low,0.014,0.0855,3.49,2,0,1,-0.4387224869872972,False
+BRK-B,Berkshire Hathaway Class B,Financial Services,Insurance - Diversified,20.7,1.0,14.8,4.9,Medium,0.0819,0.1624,0.94,3,0,1,-0.5216847862398888,False
+BDX,"Becton, Dickinson and Co.",Healthcare,Medical Instruments & Supplies,23.8,3.0,7.1,13.6,Medium,0.0599,0.09,0.4,3,0,1,-0.4317293392061568,False
+BAX,Baxter International Inc.,Healthcare,Medical Instruments & Supplies,23.6,2.8,7.1,13.6,Medium,0.0746,0.254,3.08,3,0,1,-0.4128442182754974,False
+BBWI,"Bath & Body Works, Inc.",Consumer Cyclical,Specialty Retail,28.3,12.2,5.9,10.3,Medium,0.126,0.3615,1.66,0,0,1,-0.44183103291344733,False
+BK,Bank of New York Mellon Corporation,Financial Services,Asset Management,20.9,1.1,9.9,9.9,Medium,0.0187,0.0395,3.46,3,0,1,-0.4592504829049336,False
+BAC,Bank of America Corporation,Financial Services,Banks - Diversified,28.3,1.7,11.5,15.1,Medium,0.0019,0.067,2.62,3,0,1,-0.47921739419649767,False
+BALL,Ball Corporation,Consumer Cyclical,Packaging & Containers,12.1,7.6,3.7,0.8,Low,0.1347,0.5623,3.18,1,0,-1,-0.5545406669850114,False
+AVY,Avery Dennison Corp.,Consumer Cyclical,Packaging & Containers,16.1,11.4,3.7,0.9,Low,-0.028,-0.1066,2.2,2,0,-1,-0.5585646154182554,False
+AVB,"Avalonbay Communities, Inc.",Real Estate,REIT - Residential,9.8,3.0,4.8,2.0,Negligible,0.0843,0.3487,2.65,1,0,1,-0.4719128478638217,False
+AZO,"Autozone, Inc.",Consumer Cyclical,Specialty Retail,11.0,0.1,3.8,7.1,Low,0.0941,0.3755,3.21,1,0,1,-0.46537507252773036,False
+ADP,Automatic Data Processing,Industrials,Staffing & Employment Services,13.8,2.8,5.5,5.5,Low,0.0325,0.1231,3.41,2,0,1,-0.42435042955880226,False
+ADSK,Autodesk Inc,Technology,Software - Application,16.8,3.7,4.9,8.2,Low,0.1459,0.4108,1.88,1,0,1,-0.41373377279108503,False
+ATO,Atmos Energy Corporation,Utilities,Utilities - Regulated Gas,34.6,14.8,6.4,13.4,High,0.0409,0.1003,1.72,0,0,1,-0.47344438801109573,False
+T,At&t Inc.,Communication Services,Telecom Services,23.9,3.3,6.7,13.9,Medium,-0.0641,-0.1978,2.2,2,0,1,-0.5149867239974514,False
+AIZ,"Assurant, Inc.",Financial Services,Insurance - Specialty,24.1,1.6,11.7,10.8,Medium,0.0619,0.2388,3.4,3,0,1,-0.4623078350233406,False
+AJG,Arthur J. Gallagher & Co.,Financial Services,Insurance Brokers,21.2,0.1,10.1,10.9,Medium,0.1204,0.2444,1.34,3,0,1,-0.4363981343204657,False
+ANET,Arista Networks,Technology,Computer Hardware,16.7,0.4,7.4,8.9,Low,0.0826,0.374,3.4,1,0,1,-0.4404928646925174,False
+ADM,Archer Daniels Midland Company,Consumer Defensive,Farm Products,31.8,16.6,5.0,10.1,High,0.0178,0.0191,0.54,0,0,1,-0.4880910571052503,False
+ACGL,Arch Capital Group Ltd,Financial Services,Insurance - Diversified,22.5,1.5,10.9,10.1,Medium,0.0838,0.1609,1.38,3,0,1,-0.4267080326764609,False
+APTV,Aptiv Plc,Consumer Cyclical,Auto Parts,10.7,1.5,5.3,3.9,Low,0.0544,0.1511,1.1,2,0,1,-0.4318786023801717,False
+AMAT,Applied Materials Inc,Technology,Semiconductor Equipment & Materials,12.7,4.5,5.3,3.0,Low,0.2401,0.4659,0.83,1,0,1,-0.5063455814367385,False
+AAPL,Apple Inc.,Technology,Consumer Electronics,17.2,0.5,9.4,7.4,Low,0.1878,0.566,1.82,1,0,1,-0.48675725855002255,False
+APA,Apa Corporation,Energy,Oil & Gas E&P,38.8,22.0,8.0,8.9,High,0.0767,0.2564,2.17,0,0,-1,-0.5540484197874448,False
+ANSS,Ansys Inc,Technology,Software - Application,15.9,3.5,5.1,7.3,Low,0.0957,0.1701,0.66,2,0,1,-0.4059148283693168,False
+ADI,"Analog Devices, Inc.",Technology,Semiconductors,22.9,9.3,7.0,6.7,Medium,0.1143,0.3417,2.0,1,0,1,-0.4186425485540677,False
+APH,Amphenol Corporation,Technology,Electronic Components,19.6,7.3,7.6,4.6,Low,0.1095,0.4386,3.29,1,0,1,-0.4593311735674945,False
+AMGN,Amgen Inc,Healthcare,Drug Manufacturers - General,22.0,0.7,7.8,13.5,Medium,0.0947,0.0758,0.43,3,0,1,-0.4419149375476677,False
+AME,"Ametek, Inc.",Industrials,Specialty Industrial Machinery,23.9,8.6,6.7,8.5,Medium,0.067,0.2866,3.08,0,0,1,-0.4073336411833401,False
+AMP,"Ameriprise Financial, Inc.",Financial Services,Asset Management,20.3,2.1,10.3,7.8,Medium,0.1299,0.2852,1.86,3,0,1,-0.4294025772420076,False
+AWK,"American Water Works Company, Inc",Utilities,Utilities - Regulated Water,21.6,9.0,5.0,7.6,Medium,0.0126,0.0297,0.4,2,0,1,-0.4343181920185551,False
+AMT,American Tower Corporation,Real Estate,REIT - Specialty,10.9,2.9,5.2,2.8,Low,0.0732,0.1113,0.95,2,0,1,-0.4461424098136846,False
+AIG,"American International Group, Inc.",Financial Services,Insurance - Diversified,24.2,1.6,12.9,9.7,Medium,0.0938,0.2357,1.72,3,0,1,-0.4650770139427952,False
+AXP,American Express Company,Financial Services,Credit Services,18.6,0.1,9.7,8.9,Low,0.0705,0.2543,2.52,3,0,1,-0.42988260456988686,False
+AEP,"American Electric Power Company, Inc.",Utilities,Utilities - Regulated Electric,26.1,12.7,5.4,8.1,Medium,0.0294,0.1564,2.28,0,0,1,-0.41646653441104126,False
+AAL,American Airlines Group Inc.,Industrials,Airlines,26.4,9.9,4.8,11.6,Medium,0.0701,0.1294,0.4,0,0,1,-0.43416185338342633,False
+AEE,Ameren Corporation,Utilities,Utilities - Regulated Electric,27.2,12.9,5.3,9.1,Medium,0.034,0.1311,2.46,0,0,1,-0.4124840718347754,False
+AMZN,Amazon.com Inc,Consumer Cyclical,Internet Retail,30.6,6.0,9.2,15.4,High,0.1083,0.2431,1.56,3,0,1,-0.45465807782156037,False
+MO,"Altria Group, Inc.",Consumer Defensive,Tobacco,31.3,6.1,7.6,17.6,High,0.0491,0.1762,2.41,3,0,1,-0.4727433273849327,False
+GOOGL,Alphabet Inc. Class A,Communication Services,Internet Content & Information,24.2,1.6,11.5,11.2,Medium,0.0662,0.2802,3.09,3,0,1,-0.44441257904412934,False
+LNT,Alliant Energy Corporation,Utilities,Utilities - Regulated Electric,21.4,8.5,6.3,6.6,Medium,0.0368,0.1779,2.66,2,0,1,-0.4054080935573458,False
+ALLE,Allegion Public Limited Company,Industrials,Security & Protection Services,21.8,10.9,5.0,5.8,Medium,0.0478,0.1411,1.35,2,0,1,-0.41038271308636487,False
+ARE,"Alexandria Real Estate Equities, Inc.",Real Estate,REIT - Office,13.9,3.9,6.3,3.7,Low,0.0714,0.2841,2.74,2,0,1,-0.41772823235749273,False
+ALB,Albemarle Corporation,Basic Materials,Specialty Chemicals,26.6,15.4,6.3,4.8,Medium,0.0421,0.2064,2.92,0,0,1,-0.468407837471485,False
+AKAM,Akamai Technologies Inc,Technology,Software - Infrastructure,17.0,3.0,6.9,7.1,Low,0.1296,0.1401,0.32,2,0,1,-0.45583422047508604,False
+APD,"Air Products & Chemicals, Inc.",Basic Materials,Specialty Chemicals,12.3,7.4,3.3,1.5,Low,-0.0058,-0.058,1.57,2,0,-1,-0.5310474892307708,False
+A,Agilent Technologies Inc.,Healthcare,Diagnostics & Research,13.6,1.1,6.1,6.4,Low,0.0369,0.1475,1.74,2,0,1,-0.4093553988453201,False
+AFL,Aflac Inc.,Financial Services,Insurance - Life,18.3,0.3,8.9,9.1,Low,0.0481,0.0577,1.03,3,0,1,-0.4342157772870622,False
+AES,Aes Corporation,Utilities,Utilities - Diversified,26.7,13.3,5.3,8.2,Medium,0.0334,0.0938,2.44,0,0,1,-0.41977274896862965,False
+ADBE,Adobe Inc.,Technology,Software - Infrastructure,13.1,1.9,5.2,6.0,Low,0.0649,0.2309,1.52,2,0,1,-0.39622389179447576,False
+ACN,Accenture Plc,Technology,Information Technology Services,9.8,0.8,4.4,4.6,Negligible,0.1247,0.3872,1.83,1,0,1,-0.46329273264415616,False
+ABBV,Abbvie Inc.,Healthcare,Drug Manufacturers - General,29.9,2.4,10.4,17.2,Medium,0.0066,-0.0284,2.16,3,0,1,-0.49658034746319357,False
+ABT,Abbott Laboratories,Healthcare,Medical Devices,24.8,2.3,8.3,14.2,Medium,0.2297,0.8826,2.75,1,0,-1,-0.5593009518317849,False
+AOS,A.O. Smith Corporation,Industrials,Specialty Industrial Machinery,25.4,7.2,6.4,11.9,Medium,0.0897,0.4167,3.36,0,0,1,-0.4394284573701004,False
+MMM,3m Company,Industrials,Conglomerates,37.3,17.2,6.5,13.6,High,0.0474,0.2138,3.27,0,0,-1,-0.5340285932402963,False
